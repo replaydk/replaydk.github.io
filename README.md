@@ -2,8 +2,9 @@
 <body>
 <h1>Dean Klakken III</h1>
 <p>Here's the github webpage!</p>
-  Assignment 4 Continued! 
-  1. How Web Browsers Function:
+Assignment 4 Continued! 
+
+1. How Web Browsers Function:
 Web browsers are like special tools for looking at websites. When you type a website's address or search for something, the browser asks the internet for the web page. The web page is like a recipe with ingredients: text, pictures, and instructions. The browser follows the recipe and shows you the web page on your computer so you can read and click on things.
 
 2. DOM (Document Object Model):
