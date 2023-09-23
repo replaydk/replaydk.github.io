@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <!-- “My Way-Cool Awesome Site!” contents, visible to visitors. -->
+  </body>
+</html>
