@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        The Hobbit by J.R.R. Tolkien
+    </title>
+
+    <!-- Meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles to give a hobbity theme and center the header -->
+    <style>
+        /* Font Embed for Ringbearer */
+        @font-face {
+            font-family: 'Ringbearer';
+            src: url('RingbearerMedium-51mgZ.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #d8bfaa ; /* earthy background color */
+            border: 10px solid green;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Ringbearer', 'Times New Roman', serif; /* using Ringbearer font for headers */
+            text-align: center; /* center headers */
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #b28451; /* Earthy brown color */
+        }
+
+        img {
+            width: calc(100% - 60px); /* Adjusted to fit within border */
+            display: block;
+            margin: 0 auto;
+        }
+
+        em {
+            color: #8a4b08; /* Deep earthy color for emphasis */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The Hobbit</h1>
+    <h2>By J.R.R. Tolkien</h2>
+    <h3>Dean Klakken III Week 7</h3>
+    <hr>
+
+    <!-- Description about the story of The Hobbit -->
+    <p>
+        "The Hobbit," penned by J.R.R. Tolkien, unfolds the adventurous journey of Bilbo Baggins, a content hobbit who
+        prefers a tranquil life, filled with comfort and routine.
+        His peaceful existence is disrupted when he is unexpectedly drawn into an epic quest by Gandalf the wizard and
+        a band of dwarves.
+        Their daring mission is to recapture their stolen treasure and kingdom from the cunning dragon, Smaug.
+        This journey takes Bilbo far from the Shire, through enchanted forests, towering mountains, and ominous caverns,
+        where he encounters a myriad of creatures, including trolls, elves, goblins, and giant spiders.
+    </p>
+
+    <p>
+        In the process of this incredible journey, Bilbo stumbles upon a magical ring which holds powers beyond his
+        comprehension.
+        This ring grants the wearer invisibility, allowing Bilbo to navigate through perilous situations, ultimately
+        playing a crucial role in the success of their quest.
+        Bilbo’s encounters with different beings and the overcoming of unimaginable challenges demonstrate his evolving
+        wit, bravery, and self-reliance.
+        The transformation from a reluctant, comfort-loving hobbit to a key figure in a grand adventure illustrates the
+        profound impact of stepping into the unknown.
+    </p>
+
+    <img src="hobbit-image.jpg" alt="Bilbo taking a puff, thinking 'Maybe one more adventure...'" title="Bilbo taking a puff, thinking 'Maybe one more adventure...'">
+
+    <hr>
+
+    <!-- Information about J.R.R. Tolkien -->
+    <p>
+        J.R.R. Tolkien, a renowned author and philologist, created a magnificent world in his Middle-earth legendarium,
+        featuring a rich tapestry of languages, cultures, and histories.
+        His works, including "The Hobbit," reflect his profound love for mythology, linguistics, and nature.
+        <a href="https://en.wikipedia.org/wiki/J._R._R._Tolkien">Tolkien</a> served as a Lieutenant in the First World
+        War, and his experiences in the war deeply influenced his writing, echoing themes of friendship, sacrifice, and
+        the enduring battle between good and evil.
+    </p>
+
+    <p>
+        The overarching theme of Tolkien's work is the enduring human spirit and the constant battle between the forces
+        of good and evil.
+        His stories, deeply rooted in mythological and religious themes, often explore the corrupting influence of power
+        and the redeeming qualities of mercy and compassion.
+        "The Hobbit" serves as a beacon of Tolkien’s overarching theme, showcasing the journey of self-discovery and the
+        realization of potentials that one was oblivious to.
+        It's a tale that continues to inspire and captivate, inviting readers to reflect on their inner strengths and
+        the boundless possibilities of personal growth.
+    </p>
+
+    <hr>
+
+    <!-- A section about a hobbit dish -->
+    <h2>Hobbit Cuisine: A Traditional Dish</h2>
+    <p>
+        When it comes to food, hobbits have a rich culinary tradition.
+        One of the most beloved dishes among the hobbits of the Shire is <em>Seedcake</em>.
+        Here's a simple recipe to make this delightful treat:
+    </p>
+   
+    <!-- List of ingredients -->
+    <ul>
+        <li>1 cup of flour</li>
+        <li>1/2 cup of butter</li>
+        <li>1/4 cup of sugar</li>
+        <li>2 eggs</li>
+        <li>1 teaspoon of baking powder</li>
+        <li>2 tablespoons of caraway seeds</li>
+    </ul>
+    <p>
+        Preheat the oven to 350°F (175°C). In a bowl, cream together butter and sugar until smooth.
+        Add the eggs one by one, followed by the flour and baking powder.
+        Mix in the caraway seeds last.
+        Pour the mixture into a greased pan and bake for 25-30 minutes until golden brown.
+        Let it cool, slice, and enjoy with a cup of tea!
+    </p>
+
+    <hr>
+
+    <a href="https://bookriot.com/exploring-first-cover-hobbit/">Click here for a picture of The Hobbit Book Cover</a>
+    
+    <hr>
+    <!-- Checkboxes for daily hobbit tasks -->
+    <h2>Daily Hobbit Tasks:</h2>
+    <form id="hobbitTasks" class="dailyTasks" method="POST">
+        <input type="checkbox" id="breakfast" name="breakfast">
+        <label for="breakfast">First Breakfast</label><br>
+        
+        <input type="checkbox" id="secondBreakfast" name="secondBreakfast">
+        <label for="secondBreakfast">Second Breakfast</label><br>
+        
+        <input type="checkbox" id="elevenses" name="elevenses">
+        <label for="elevenses">Elevenses</label><br>
+        
+        <input type="checkbox" id="luncheon" name="luncheon">
+        <label for="luncheon">Luncheon</label><br>
+        
+        <input type="checkbox" id="tea" name="tea">
+        <label for="tea">Afternoon Tea</label><br>
+        
+        <input type="checkbox" id="dinner" name="dinner">
+        <label for="dinner">Dinner</label><br>
+        
+        <input type="checkbox" id="supper" name="supper">
+        <label for="supper">Supper</label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <!-- Email Plain text boxes -->
+        <h2>Contact the Staff</h2>
+    <p>If you'd like to connect with the staff of this page, please enter your details below:</p>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="useremail" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+<hr>
+    <h2>Share Your Shire Tales</h2>
+    <p>Every hobbit has a tale to tell, from memories of Bag End to adventures beyond the Shire. Share your favorite hobbit memory or tale in the space below:</p>
+
+    <form action="#" method="post">
+        <label for="shireTales">Your Tale:</label><br>
+        <textarea id="shireTales" name="shireTales" rows="10" cols="50" placeholder="It was a sunny day in the Shire when..."></textarea><br><br>
+
+        <input type="submit" value="Submit Your Tale">
+    </form>
+
+    <hr>
+    <!-- Favorite dwarf dadio buttons -->
+    <h2>Select Your Favorite Dwarf</h2>
+<p>Which of Thorin's company is your favorite? Select a dwarf from the list below:</p>
+
+    <form action="#" method="post">
+        <input type="radio" id="thorin" name="dwarf" value="thorin">
+        <label for="thorin">Thorin Oakenshield</label><br>
+
+        <input type="radio" id="balin" name="dwarf" value="balin">
+        <label for="balin">Balin</label><br>
+
+        <input type="radio" id="dwalin" name="dwarf" value="dwalin">
+        <label for="dwalin">Dwalin</label><br>
+
+        <input type="radio" id="fili" name="dwarf" value="fili">
+        <label for="fili">Fíli</label><br>
+
+        <input type="radio" id="kili" name="dwarf" value="kili">
+        <label for="kili">Kíli</label><br>
+
+        <input type="radio" id="ori" name="dwarf" value="ori">
+        <label for="ori">Ori</label><br>
+
+        <input type="radio" id="nori" name="dwarf" value="nori">
+        <label for="nori">Nori</label><br>
+
+        <input type="radio" id="dori" name="dwarf" value="dori">
+        <label for="dori">Dori</label><br>
+
+        <input type="radio" id="oin" name="dwarf" value="oin">
+        <label for="oin">Oin</label><br>
+
+        <input type="radio" id="gloin" name="dwarf" value="gloin">
+        <label for="gloin">Gloin</label><br>
+
+        <input type="radio" id="bifur" name="dwarf" value="bifur">
+        <label for="bifur">Bifur</label><br>
+
+        <input type="radio" id="bofur" name="dwarf" value="bofur">
+        <label for="bofur">Bofur</label><br>
+
+        <input type="radio" id="bombur" name="dwarf" value="bombur">
+        <label for="bombur">Bombur</label><br>
+
+        <input type="submit" value="Submit Your Choice">
+    </form>
+
+    <hr>
+
+</body>
+
+
+</html>
