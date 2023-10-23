@@ -9,3 +9,6 @@ https://replaydk.github.io/Assignment6/
 
 Week 7
 https://replaydk.github.io/Assignment7/
+
+Week 8
+https://replaydk.github.io/Assignment8/

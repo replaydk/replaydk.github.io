@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A secondary page showcasing iFrames, media management, videos, and audio books related to web design.">
+    <meta name="author" content="Dean Klakken III">
+    <meta name="keywords" content="web design, iFrames, media management, video, audio books, The Hobbit">
+    
+
+    <title>Secondary Page - Web Design</title>
+    <style>
+        /* Keeping styles consistent with index.html */
+        @font-face {
+            font-family: 'Ringbearer';
+            src: url('RingbearerMedium-51mgZ.ttf') format('truetype');
+        }
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #d8bfaa ; /* earthy background color */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        main, header, nav, footer {
+        width: 100%;
+        max-width: 1200px; 
+        text-align: center; 
+        margin: 0 auto; 
+        }
+                
+        h1, h2, h3 {
+            font-family: 'Ringbearer', 'Times New Roman', serif; /* using Ringbearer font for headers */
+            text-align: center; /* center headers */
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #b28451; /* Earthy brown color */
+        }
+
+        img {
+            width: calc(50% - 60px); /* Adjusted to fit within border */
+            display: block;
+            margin: 0 auto;
+        }
+
+        em {
+            color: #8a4b08; /* Deep earthy color for emphasis */
+        }
+        .media-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center contents horizontally */
+        gap: 10px; 
+        }
+        nav {
+        background-color: #000000;
+        padding: 1px;
+    }
+
+        nav ul {
+        list-style-type: none;
+        padding: 10px;   
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #f39c12;
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Web Design: Secondary Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">Secondary Page</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>iFrames</h2>
+        <h1>Please don't actually watch this video, it's super cringe and old :D</h1>
+        <iframe src="https://www.youtube.com/embed/5q9rJdWgfgk" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+        <hr>
+        <h2>Media Management</h2>
+
+        <img src="Images/hobbit-image.jpg" alt="Description of Image">
+
+       <hr>
+       
+       <h2> Random Video I had to plug into the project </h2>
+        <video controls>
+            <source src="Media/RandomVideo.mkv" type="video/mp4">
+        </video>
+
+        <hr>
+        
+        <h2>Audio Book of Chapter 1</h2>
+        <audio controls>
+            <source src="Media/The Hobbit_ Chapter 01 - An Unexpected Party.mp3" type="audio/mpeg">
+        
+        </audio>
+
+    </main>
+
+    <footer>
+        <p> I do not own any of this content, except for the random video of touch designer and my own linked youtube video. TM & &copy; Warner Bros. (2012) </p>
+    </footer>
+
+</body>
+
+</html>
